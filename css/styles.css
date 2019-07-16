@@ -1,0 +1,106 @@
+.card-1{
+    width: 100%;
+}
+
+.card{
+    border-width: 0px !important;
+}
+
+.right-unorderlist{
+    list-style-type: none;
+}
+
+.heading-h3-right{
+    font-size:21px;
+    font-weight: 400;
+}
+
+/*
+.tab-content{
+    background-color: #EED6DB;
+}
+*/
+
+.btn-red{
+    background-color:#e35959;
+    color:white;
+}
+.btn-red:hover{
+    background-color: #eb7373;
+}
+
+#h-1{
+    font-size: 2.2vmax;
+}
+#h-2{
+    font-size: 1.4vmax;
+}
+
+.card-img{
+    height: 90vh;
+}
+
+#be-in-touch-input-element{
+    overflow: hidden;
+}
+
+.tab-pane{
+    font-size: 95%;
+}
+
+#nav-btn-1{
+    border-top: 5px solid red !important;
+}
+#nav-btn-2{
+    border-top:5px solid gold;
+}
+#nav-btn-3{
+    border-top: 5px solid teal;
+}
+#nav-btn-4{
+    border-top:5px solid darkred;
+}
+#nav-btn-5{
+    border-top:5px solid limegreen;
+}
+
+.bg-color-grey{
+    background-color: #EED6DB;
+}
+
+.bg-custom-1{
+    background-color: rgba(220, 53, 69,0.84);
+}
+
+.bg-custom-2{
+    background-color: rgba(108, 117, 125,0.84);
+}
+
+.outline-tab-pane{
+    border-bottom:1px solid rgb(222, 226, 230);
+    border-right:1px solid rgb(222, 226, 230);
+    border-left:1px solid rgb(222, 226, 230);
+}
+
+.border-outline-sidemenu{
+    border:1px solid rgb(222,226,230);
+}
+
+/*
+Navbar
+*/
+
+#nav-bar-color{
+    background-color:#ffffff
+}
+.btn-nav-item{
+    font-size: 11pt;
+}
+#logo-img{
+    height: 2rem;
+    width: 10rem;
+}
+
+.inner-nested-li{
+    list-style-type: lower-alpha;
+}

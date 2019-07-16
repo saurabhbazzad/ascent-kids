@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <!--Bootstrap, JQuery and Popperjs-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+    <!--/Bootstrap, JQuery and Popperjs-->
+
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-1" id="nav-bar-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand my-0 py-0" href="#"><img src="./img/logo.jpg" alt="" id="logo-img" class="p-0"></a>
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 btn-group">
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">Career Counselling</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">ASCENT Events</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">myASCENT</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">ASCENT Kids</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">Ascent Email</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-danger btn-nav-item">Contact us</button><span class="sr-only"></span></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-0 py-0">
+        <div class="card bg-dark text-white">
+            <img src="./img/kids.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Why Us</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Our Courses</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pathways</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accommodation</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Student Life</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dates & Fees</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row h-75">
+                    <div class="mt-auto w-100">
+                        <h5 class="card-title bg-custom-1 text-center py-3" id="h-1">ENGLISH SPEAKING PROGRAM FOR JUNIORS</h5>
+                        <p class="card-text bg-custom-2 text-center py-3" id="h-2">Find the concealed speaking skill in your child !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 py-4">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" data-toggle="tab" href="#home" id="nav-btn-1">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu1" id="nav-btn-2">Objective</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu2" id="nav-btn-3">Curriculum & Certification</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu3" id="nav-btn-4">Ascent Kids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu4" id="nav-btn-5">Testimonials</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content py-3 outline-tab-pane">
+                        <div class="tab-pane container active" id="home">
+                            <p>
+                                Ascent Ayaansh Juniors English Program enables kids aged 6 – 10 to acquire this vital 
+                                life skill from the earliest possible stage.
+                                Combining effective language teaching techniques with a fun and supportive 
+                                atmosphere, Ascent Kid’s English can give your child the confidence to use 
+                                English practically in everyday life.   
+                                <br>
+                                <b>SCIENTIFICALLY PROVEN ENGLISH SPEAKING TRAINING</b> 
+                                <br>
+                                Learning a second language from an early age can: 
+                                <ul>
+                                    <li>
+                                        Enhance literacy development in a child’s native language.
+                                    </li>
+                                    <li>
+                                        Positively alter the brain’s structure, increasing the amount of 
+                                        information-processing nerve cells in the language processing lobe.
+                                    </li>
+                                    <li>
+                                        Helps children absorb an English accent and build up vocabulary in 
+                                        more than one language simultaneously.
+                                    </li>
+                                </ul>
+
+                                Class sizes are kept small to make sure each child gets the attention that they 
+                                need. This, in tandem with our commitment to teaching to each child’s individual 
+                                strengths, makes Ascent Ayaansh’s English the right choice for kids with any 
+                                existing level of English Language.
+
+                                <br>
+
+                                <b>TRAINING MATERIALS</b>
+
+                                <ol>
+                                    <li>Flash Cards</li>
+                                    <li>Audio Visual Resources</li>
+                                    <li>Story Books</li>
+                                    <li>Activity Sheets</li>
+                                </ol>
+
+                                Kids of all abilities experience carefree teaching without the pressure 
+                                to perform in our children’s courses. At each level their vocabulary increases 
+                                day by day.
+
+                                <ul>
+                                    <li>
+                                        Courses suitable for children held in small groups.
+                                    </li>
+                                    <li>
+                                        Lively, encouraging, happy lessons.
+                                    </li>
+                                    <li>
+                                        Optimal, effective support.
+                                    </li>
+                                    <li>
+                                        Fantastic teaching materials with simple reading, writing and grammar exercises.
+                                    </li>
+                                    <li>
+                                        Learn simply through songs, verses, conversations and stories – all in English of course.
+                                    </li>
+                                </ul>
+
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu1">
+                            <p>
+                                To ensure the delivery of its quality method, the program assesses kids on a regular 
+                                basis and make sure that each child has reached the weekly and monthly objectives.
+                                <br>
+                                Dancing, acting, crafts, using tools remembering names,  thinking in words, learning 
+                                languages , spelling, reasoning recognizing patterns, using abstract symbols, 
+                                problem solving, remembering melodies and visual details.
+                            </p>
+                            <h3>Linguistics</h3>
+                            <p>
+                                Obtain a broad vocabulary base to aid confident speech and listening
+                                <br>
+                                Develop letter recognition ability to prepare for speaking, reading and writing
+                            </p>
+                            <h3>Education</h3>
+                            <p>
+                                Introduce classroom setting concept to help them adapt easily to full-time 
+                                education
+                                <br>
+                                Improve co-ordination to enhance pencil control and computer learning     
+                            </p>
+                            <h3>Social</h3>
+                            <p>
+                                Establish sharing, co-operation and group learning skills within an educational 
+                                setting
+                                <br>
+                                Enhance recognition and observational skills to enable future learning.                                    
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu2">
+                            <h3>CURRICULUM</h3>
+                            <p>
+                                The unique Ascent Junior Camps English Program has been developed by international 
+                                educational experts to help children gain language skills from the earliest possible stage, 
+                                and use English in the real world with confidence.
+                            </p>
+                            <p>
+                                The curriculum includes four distinct levels. Across all levels, five key learning 
+                                skills have been identified and are practiced at the same time to boost the learning 
+                                process and help children to feel at home with the English language: speaking, listening 
+                                and understanding.
+                            </p>
+                            <p>
+                                Each unit of the Ascent Junior Camps English Program is based on nurturing your 
+                                child’s imagination and helping them learn in a way that ensures the knowledge 
+                                will last a lifetime.
+                            </p>
+                            <p>
+                                Our experts do this by combining fun, playful education techniques with enough 
+                                structure and routine to manage their knowledge-base and prepare them for 
+                                full-time education.
+                            </p>
+                            <p>
+                                We provide children with activities, multimedia and sensory experiences that enhance 
+                                the learning process, as well as a relaxed, open environment in which to explore 
+                                their new talent.
+                            </p>
+                            <h3>CERTIFICATION</h3>
+                            <p>
+                                <b>Your child will:</b>
+                                <br>
+                                <ul>
+                                    <li>
+                                        gain confidence in expressing themselves in English and expand their communicative abilities
+                                    </li>
+                                    <li>
+                                        deal with topics of interest to their age group in class
+                                    </li>
+                                    <li>
+                                        expand their grammar and vocabulary, and learn to use the language in a natural way
+                                    </li>
+                                    <li>
+                                        develop as a person ready for a changing, globalized environment.
+                                    </li>
+                                </ul>
+                                Apart from this, a formal certification of English Language Achievement will be awarded. 
+                                <br>
+                                Upon completion of your chosen Program with us, your child will be given a Certificate of Achievement, 
+                                which will help to fill them with confidence and reinforce what they’ve learned, as well as indicating 
+                                the skills learned to future education providers
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu3">
+                            <p>
+                                The Child Student Program Ascent Kids is specially designed to improve the speaking and listening 
+                                skills of children aged 6-8. Children learn through our intensive listening and video tutorials, 
+                                where our experienced trainers would be assisting for improving vocabulary, pronunciation and 
+                                encouraging students to speak immensely during the training program.
+                                <br>
+                                As most of these lessons are vocabulary-based, using videos, students entertainment based learning 
+                                activities is initiated and implemented, for better improvement of English language.  
+                                <br>
+                            </p>
+                            <h3>PROGRAM STRUCTURE</h3>
+                            <p>Speaking Competency</p>
+                            <ol>
+                                <li>
+                                    Basic Introduction
+                                    <ol class="inner-nested-li">
+                                        <li>Greetings</li>
+                                        <li>Express feelings in words</li>
+                                        <li>Identifying Social Activity Spaces</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Enriching Kids Vocabulary
+                                    <ol class="inner-nested-li">
+                                        <li>Point out parts of body</li>
+                                        <li>Stating the relationship of family members</li>
+                                        <li>Recognizing objects & Colors, Singular Plural</li>
+                                        <li>Understanding Days of Week, Months</li>
+                                        <li>Understanding Time</li>
+                                        <li>Birds, Vegetables, Fruits, Vehicles</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Self-Introduction
+                                    <ol class="inner-nested-li">
+                                        <li>Talking about one-self</li>
+                                        <li>Introduction to action words</li>
+                                        <li>Talking about a picture</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Communicative Grammar
+                                    <ol class="inner-nested-li">
+                                        <li>Vowel & Consonant</li>
+                                        <li>The verb ‘to be’</li>
+                                        <li>Basic of tense </li>
+                                        <li>Speaking! The Present Continuous Tense</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Phonics Development -I
+                                    <ol class="inner-nested-li">
+                                        <li>Introduction to Consonant Diagraph & Blend </li>
+                                        <li>‘Fl’, ‘bl’, ‘sl’, ‘cl’, ‘pl’, ‘bl’, ‘gr’, ‘tr’, ‘br’, ‘cr’, ‘dr’ sounds</li>
+                                        <li>‘pr’, ‘fr’, ‘wh’, ‘st’, ‘sw’, ‘sp’, ‘sc’, ‘sn’, ‘sm’, ‘sk’ sounds</li>
+                                        <li>‘st’, ‘sh’, ‘ch’, ‘th’, ‘wh’, ‘ph’ ‘ng’ Sounds</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Phonics Development -II
+                                    <ol class="inner-nested-li">
+                                        <li>Introduction to Diphthong</li>
+                                        <li>“ia”, “io”, “ou”, “aw”/“au”, “oy”/“oi”, “ow”/“ou”</li>
+                                        <li>“oo”, “oa”, “ea”, “ai”</li>
+                                        <li>“ur”, “ew”</li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    Live Project on Listening/Speaking Skills
+                                </li>
+                            </ol>
+                            <h3>PROGRAM DURATION</h3>
+                            <p>
+                                The detailed duration for Ascent Junior Camps English Speaking Program is as follows:
+                            </p>
+                            <ul>
+                                <li>
+                                    54 hours of Intensive English Lab Training Program
+                                </li>
+                                <li>
+                                    12 Weeks Program (3 Months)
+                                </li>
+                                <li>
+                                    90 Minutes of Class duration on alternate days
+                                </li>
+                            </ul>
+                            <table class="table table-hover">
+                                <thead class="">
+                                    <tr class="table-secondary">
+                                        <th scope="col">Day/Time</th>
+                                        <th scope="col">5:00pm-6:30pm</th>
+                                        <th scope="col">6:30pm-8:00pm</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-danger">
+                                        <th scope="row">Monday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <th scope="row">Tuesday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-danger">
+                                        <th scope="row">Wednesday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <th scope="row">Thursday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-danger">
+                                        <th scope="row">Friday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <th scope="row">Saturday</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3>CLASS SIZE</h3>
+                            <p>
+                                12 students max. per classroom
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu4">
+                            More Information Coming Soon. Stay Connected.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 py-4">
+                    <div class="border-outline-sidemenu px-3 py-4">
+                        <h2 class="text-center bg-danger text-light py-2">OUR PROGRAMS</h2>
+                        <div>
+                            <h3 class="heading-h3-right">ENGLISH SKILLS PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>ASCENT Kids</li>
+                                <li>Junior Camps</li>
+                                <li>Primary School English</li>
+                                <li>English Speaking</li>
+                                <li>Elementary English Communication</li>
+                                <li>Intensive English Communication</li>
+                            </ul>
+                            <hr>
+                            <h3 class="heading-h3-right">COMPUTING SKILLS PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>Smart Office Certification</li>
+                                <li>Digital Literacy Certification</li>
+                                <li>Creative Designer Certification</li>
+                                <li>Computer Programming Certification</li>
+                                <li>Hardware & Technical Computing Certification</li>
+                            </ul>
+                            <hr>
+                            <h3 class="heading-h3-right">PERSONA ORGANIZATION PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>Personality and Professional Development</li>
+                                <li>Job Interview Training</li>
+                                <li>Pillars of Success</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center my-4 border-outline-sidemenu py-4 px-2">
+                        <h3 class="text-light bg-danger py-2">Contact Us</h3>
+                        <form action="" method="post">
+                            <div class="form-group text-left">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" aria-describedby="fName" placeholder="Enter First Name">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" aria-describedby="lName" placeholder="Enter Last Name">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="emailID">Email</label>
+                                <input type="email" class="form-control" id="emailID" aria-describedby="email" placeholder="Enter Email Address">
+                            </div>
+                            <button type="submit" class="btn btn-danger">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid bg-color-grey py-5">
+        <div class="container">
+            <h2 class="text-center pt-2 pb-4">WHY YOUR JUNIORS SHOULD JOIN US</h2>
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="card card-1">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Innovative Approach</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card card-1">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Reputational Excellence</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card card-1">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Vibrant Learning Environment</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card card-1">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Vibrant Learning Environment</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-danger text-light">
+        <div class="container py-4">
+            <h3 class="text-center">STILL CONFUSED?</h3>
+            <p class="text-center">
+                We are here to assist you for your course selection criteria
+                <br>
+                Send us a message and we will get back to you shortly
+                <br>
+                <button class="btn btn-red py-2 my-4">CONTACT US</button>
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <div class="jumbotron jumbotron-fluid bg-dark text-light mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Be in Touch</h4>
+                    <p>
+                        Read our magazine designed, edited and published by our students
+                    </p>
+                    <form action="" method="post" class="input-group">
+                        <input type="text" name="" id="be-in-touch-input-element" class="rounded mx-1 my-1">
+                        <input type="submit" value="Join" class="btn btn-danger mx-1 my-1">
+                    </form>
+                    <h4 class="footer-jumbotron-headings">
+                        Ascent elevate
+                    </h4>
+                    <div>
+                        <small>© Copyright 2019 Ascent Ayaansh SkillsTrain LLP</small>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Get in Touch</h4>
+                    <h5 class="footer-jumbotron-headings">Contact Us</h5>
+                    <p>+91 75872 64886</p>
+                    <h5 class="footer-jumbotron-headings">India Campus</h5>
+                    <p>Plot No. 23, Hari Vihar Colony <br>
+                        Kurud Road, Bhilai (C.G.) 490 024 <br>
+                        India
+                    </p>
+                    <h5 class="footer-jumbotron-headings">Oman Campus</h5>
+                    <p>Shop No. 1, Building No. 1 <br>
+                        Postal Code 111 <br>
+                        Alayat, Ibra <br>
+                        Sultanate of Oman
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Get Info</h4>
+                    <ul id="get-ingo-unordered-list">
+                        <li>Privacy Policy</li>
+                        <li>Site map</li>
+                        <li>Join our Team</li>
+                    </ul>
+                    <h4 class="footer-jumbotron-headings">Support</h4>
+                    <ul id="get-ingo-unordered-list">
+                        <li>Contact us</li>
+                        <li>Apply now</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mx-5 my-4">
+            <a class="btn btn-light disabled" tabindex="-1" role="button" aria-disabled="true">
+                Hit Counter: 4000
+            </a>
+        </div>
+    </div>
+</body>
+</html>
